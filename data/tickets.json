@@ -1,0 +1,42 @@
+{
+  "lastId": 1,
+  "tickets": {
+    "1": {
+      "id": 1,
+      "guildId": "1451210907807121430",
+      "channelId": "1460316420284874763",
+      "creatorId": "1443017585472831579",
+      "category": "Support",
+      "status": "closed",
+      "createdAt": 1768236965459,
+      "lastActivityAt": 1768236965459,
+      "warnedAt": null,
+      "claimedBy": null,
+      "closedAt": 1768236976534,
+      "closedBy": "1443017585472831579",
+      "reason": "s",
+      "transcriptPath": {
+        "text": "C:\\Users\\asus\\Downloads\\DIscord Bot\\src\\data\\tickets\\ticket-1-support.txt",
+        "html": "C:\\Users\\asus\\Downloads\\DIscord Bot\\src\\data\\tickets\\ticket-1-support.html"
+      },
+      "initialData": {
+        "subject": "No subject",
+        "description": ""
+      },
+      "logs": [
+        {
+          "time": 1768236977881,
+          "actorId": "1443017585472831579",
+          "action": "close",
+          "details": "reason:s files:ticket-1-support.html & ticket-1-support.txt"
+        },
+        {
+          "time": 1768236977883,
+          "actorId": "1443017585472831579",
+          "action": "close",
+          "details": "s"
+        }
+      ]
+    }
+  }
+}

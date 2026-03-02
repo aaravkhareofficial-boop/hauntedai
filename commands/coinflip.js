@@ -1,0 +1,12 @@
+const { SlashCommandBuilder } = require('@discordjs/builders');
+
+module.exports = {
+  data: new SlashCommandBuilder()
+    .setName('coinflip')
+    .setDescription('Flip a coin'),
+  async execute(interaction) {
+    const r = Math.random() < 0.5 ? 'Heads' : 'Tails';
+    await interaction.reply({ content: `You flipped: **${r}**` });
+  }
+};
+
